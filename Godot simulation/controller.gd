@@ -6,7 +6,7 @@ func _ready():
 	$HTTPRequest.connect("request_completed", self, "_on_request_completed")
 	$update.connect("pressed",self,"_on_update_button_pressed")
 	$move_to.connect("pressed",self,"move_to_point")
-	$get_position.connect("pressed",self,"move_to_id")
+	
 	$HTTPRequest.request("http://127.0.0.1:5000/get")
 	
 	

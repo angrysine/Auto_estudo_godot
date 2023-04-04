@@ -1,0 +1,18 @@
+
+ Pasta de C:\Users\alber\OneDrive\Documentos\GitHub\Auto_estudo_godot
+
+             
+             
+-gitattributes
+-app.py
+-controller.py
+-extensions.py
+-Godot simulation
+--
+-instance
+-models.py
+-print.txt
+-readme.md
+-__pycache__
+
+
